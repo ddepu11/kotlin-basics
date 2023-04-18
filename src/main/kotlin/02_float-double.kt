@@ -9,12 +9,12 @@ fun main() {
 
 
 //  solution of above
-    val myNumber = 45.5f
+    val myNumber = 42f
 
 //  Double type variable
-    val mySecondNumber = 65.6
+    val mySecondNumber = 65.4
 
 
 //    Double has more precision
-
+    print("My Number: $myNumber | My Second Number: $mySecondNumber")
 }

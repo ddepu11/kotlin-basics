@@ -1,4 +1,7 @@
 fun main() {
+//    var is used to create mutable variable
+//    val is used to create read only variable
+
 //  var's can be reassigned
     var userName: String = "Mohan Kumar"
     userName = "Dhanush"
@@ -8,7 +11,9 @@ fun main() {
 //  val's can not be reassigned
     val email: String = "mohan@gmail.com"
 //    email = "dhanush@gmail.com"
- 
+//    email = ""
+
+    println("Is email Empty?  ${email.isEmpty()}")
 
     var age: Int = 23
     age = 25
