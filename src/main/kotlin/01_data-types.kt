@@ -32,4 +32,6 @@ fun main() {
 
     println("Long Max: $maxLongValue | Long Min: $minLongValue")
 
+    val myNumber = 23L
+
 }
