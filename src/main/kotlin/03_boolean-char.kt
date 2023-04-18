@@ -4,9 +4,6 @@ fun main() {
 
     println("My Char $myCharValue")
 
-
-
-
 //    val myBooleanValue = true
     val myBooleanValue = false
     println("My Boolean: $myBooleanValue")

@@ -12,9 +12,28 @@ fun main() {
     val myNumber = 42f
 
 //  Double type variable
-    val mySecondNumber = 65.4
+//  Double has more precision
+
+    val mySecondNumber = 65.2
 
 
-//    Double has more precision
     print("My Number: $myNumber | My Second Number: $mySecondNumber")
+
+    val myInt: Int = 32 // 32-bit signed integer
+
+    //    decimals
+    val myFloat: Float = 32.00F // 32-bit floating point number
+    val myDouble: Double = 23.4 // 64-bit floating point number
+
+//    All these above are objects
+
+    println(myFloat.toDouble())
+
+
+    val bigLong: Long = 1_000_000 // this is easier to read , coz of underscore
+    println("Big Long: $bigLong")
+
+
+    val newInt = myInt.minus(12)
+    println("New Int: $newInt")
 }
