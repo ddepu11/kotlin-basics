@@ -53,5 +53,13 @@ fun main() {
     val myBooleanValue = false
     println("My Boolean: $myBooleanValue")
 
+    var isBlank:Boolean = false
+
+//    println(isBlank)
+//    println(isBlank.not())
+
+
+    isBlank = "as".isBlank()
+    println(isBlank)
 
 }
