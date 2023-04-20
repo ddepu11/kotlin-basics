@@ -12,4 +12,10 @@ fun main() {
 
     println(user.age)
 
+
+    println("Full name length: ${user.fullNameLength}")
+    println("First name length: ${user.firstNameLength}")
+
+//  Can't do this coz it's a read only property.
+//  user.fullNameLength = 23
 }
