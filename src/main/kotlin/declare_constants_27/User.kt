@@ -8,6 +8,9 @@ class User(var firstName: String, lastName: String) {
 
     companion object{
         const val MAX_SCORE:Int = 100
+
+//        This cant be accessed outside of this class
+//       private const val MAX_SCORE:Int = 100
     }
 
 //    MAX_AGE is private to the scope of the class
