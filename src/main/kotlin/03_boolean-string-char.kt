@@ -4,18 +4,26 @@ fun main() {
 //    String are also known as object
 //    For string we use "" (double quotes)
     var fullName: String = "Mohan Kumar"
-    println(fullName.length)
-    println(fullName.replaceFirstChar { it.lowercase(Locale.getDefault()) })
-    println(fullName.lowercase(Locale.getDefault()))
+//    println(fullName.length)
+//    println(fullName.replaceFirstChar { it.uppercase(Locale.getDefault()) })
+//    println(fullName.lowercase(Locale.getDefault()))
+
+    val sentence = "Welcome To Kotlin!"
+    val word = sentence.split(" ")
+
+//    println(word.joinToString("_"){ word-> word.replaceFirstChar { it.lowercase() }})
 
 
-//  For char we use '' (single quotes)
+
+//  For char, we use '' (single quotes)
 //  Char represents 16 bit unicode character
-    val c: Char = 'X'
-    val otherCharacters: Char = '\n' // \t, \\ and other
-//    println(otherCharacters)
+    val c: Char = '@'
+//    println("Char: $c")
 
-//  You can also use string to store single character
+    val otherCharacters: Char = '\t' // \t, \\, \n and other
+//    println("Other Char: __$otherCharacters __  ")
+
+//  You can also use string to store single character,
 //  but it will take large memory, so it better
 //  to use char if you are going to store single character
     var foo: String = "Y"
@@ -34,32 +42,43 @@ fun main() {
 
 //    trimIndent(), replaceIndent("##__##:_"), trimMargin(">>>")
 
-    println(message)
+//    println(message)
 
+    var newMultilineMessage  = """
+        Hey Mohan,
+        I hope you are doing well, i was writing to you about your next project
+        that ypu are going to work on.
+        
+        Thanks,
+        Sonam
+    """.replaceIndent("__")
+
+//    println("New Multiline: $newMultilineMessage")
 
     var name = "Dhiraj Singh"
     var age = 23
 
 //  String interpolation
-    println("Hello $name, you are $age years old. and you name is ${name.length} character long.")
+//  println("Hello $name, you are $age years old. and your name is ${name.length} character long.")
 
 
-//    Char uses single quote and can have one character
+//  Char uses single quote and can have one character
     val myCharValue = 'S'
 
-    println("My Char $myCharValue")
+//    println("My Char $myCharValue")
 
 //    val myBooleanValue = true
     val myBooleanValue = false
-    println("My Boolean: $myBooleanValue")
+//    println("My Boolean: $myBooleanValue")
 
     var isBlank:Boolean = false
 
-//    println(isBlank)
-//    println(isBlank.not())
+//    println("Is Blank: $isBlank")
+//    println("Is Blank: ${isBlank.not()}")
 
 
-    isBlank = "as".isBlank()
-    println(isBlank)
+    isBlank = "3".isBlank()
+    println("Is Blank: $isBlank")
+
 
 }
