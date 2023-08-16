@@ -40,12 +40,14 @@ fun main() {
 
 //  To know type of variable
     println(myName::class)
+    println(myNumber::class)
 
 
     val myByte: Byte = 8 // 8-bit signed integer
     val myShort: Short = 16 // 16-bit signed integer
     val myInt: Int = 32 // 32-bit signed integer
     val myLong: Long = 64 // 64-bit signed integer
-
-
+    val myFloat: Float = 54.3F // 32-bit floating-point number.
+    val myDouble: Double = 64.3 // 64-bit floating-point number.
+    
 }
