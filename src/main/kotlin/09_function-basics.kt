@@ -2,6 +2,9 @@ fun main() {
 
     helloWorld()
     helloWorld()
+
+    greet(null)
+    greet("Good Morning")
 }
 
 
@@ -15,4 +18,8 @@ fun helloWorld (){
 fun moo(){
     println("Moooooooo....!!!!")
 
+}
+
+fun greet(wish:String?){
+    println("I greet you with ${wish?:"none"}")
 }

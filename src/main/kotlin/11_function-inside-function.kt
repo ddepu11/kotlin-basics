@@ -1,6 +1,12 @@
 fun main() {
     sayHiAndBye()
+
 //    sayBye() // Cant call it here
+
+    println("\n")
+
+    yetAnotherFunc()
+
 }
 
 
@@ -23,4 +29,15 @@ fun sayHiAndBye() {
 
     sayBye()
 
+}
+
+
+fun  yetAnotherFunc (){
+    println("Yet Another Function!")
+
+    fun innerFunction(){
+        println("Inside inner function")
+    }
+
+    innerFunction()
 }

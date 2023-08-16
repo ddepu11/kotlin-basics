@@ -7,11 +7,12 @@ fun main() {
     println(y)
 
     val age = whatsYourAge()
-    println(age)
+
+    println("My Age is $age")
 
 }
 
-// By default function return Unit
+// By default, function return Unit
 fun sayHi() {
     println("Hello world")
 }
