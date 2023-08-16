@@ -1,6 +1,6 @@
 fun main() {
     var x = 5
-    val y = 2.0
+    val y = 2
 
 
 //    x and y is operand , + operator
@@ -22,21 +22,21 @@ fun main() {
 
     var result = 5 + 10
 
-    result += 2
-    println("Result: $result")
+//    result += 2
+//    println("Result of += $result")
 
-    result -= 2
-    println("Result: $result")
+//    result -= 2
+//    println("Result -= $result")
 
-    result *= 2
-    println("Result: $result")
+//    result *= 2
+//    println("Result of *= $result")
 
-    result /= 2
-    println("Result: $result")
+//    result /= 2
+//    println("Result of /= $result")
 
-    result %= 2
-    println("Result: $result")
+//    result %= 2
+//    println("Result %= $result")
 
-    println("3 + 3 * 4 : ${3 + 3 * 4}")
+    println("3 + 3 * 4 : ${3 + 3 * 5}")
 
 }
