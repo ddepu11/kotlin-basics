@@ -1,5 +1,3 @@
-import java.time.Duration
-
 // In Kotlin, default arguments allow you to specify default values for function parameters.
 // This means that if a value is not provided for a particular parameter when the function is called,
 // the default value will be used. This can be quite handy when you want to make some function parameters
@@ -41,7 +39,6 @@ fun main() {
     println("\n")
 
     logFavoriteSong(singer = "Kumar Sanu", name = "Mai Tughko Bhaga Laya", duration = "5 min", released = "1993", doYouLikeIt = true, isItAvailableOnSpotify = true)
-
 
 }
 
