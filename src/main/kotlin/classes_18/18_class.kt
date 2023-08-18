@@ -20,5 +20,28 @@ fun main() {
     friend.printFullName()
     friend.printWithPrefix("Ms.")
     friend.firstNameLength()
+
+
+    println('\n')
+//    City
+    var city1 = City()
+    city1.name = "Jabalpur"
+    city1.famousFor = "Maa Narmada"
+
+    city1.logNameAndFamousFor()
+
+    city1.justLogTheCity()
+    city1.changeCityName("Banglore")
+    city1.justLogTheCity()
+
+
+    println()
+    var city2 = City()
+
+    city2.name = "Udaipur"
+    city2.famousFor = "Palace"
+
+    city2.logNameAndFamousFor()
+
 }
 
