@@ -35,7 +35,7 @@ fun main() {
 
     println("Updated: ${mobile1.name}")
 
-// We can read the private props but cant update them
+//  We can read the private props but cant update them
     println("${mobile1.configurationLength}")
 
 //    mobile1.configurationLength = 56

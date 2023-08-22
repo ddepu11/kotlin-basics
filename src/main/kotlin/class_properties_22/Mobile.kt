@@ -6,6 +6,7 @@ class Mobile(var name:String, var price:Double,var ram:Int) {
     var configuration = "Mobile $name, its price is $price INR and has ram of $ram gb of ram."
 
 
+//  You can also define read-only properties using the val keyword:
 //  Private value
     val configurationLength = configuration.length;
 

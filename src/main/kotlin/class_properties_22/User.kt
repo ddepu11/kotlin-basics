@@ -12,7 +12,9 @@ class User(var firstName: String, var lastName: String) {
     var fullName = "$firstName $lastName"
     var age: Int = 0
 
-    //    Read only property
+//  Read only property
+//  You can also define read-only properties using the val keyword:
+
     val fullNameLength: Int = fullName.length
     val firstNameLength: Int = firstName.length
 

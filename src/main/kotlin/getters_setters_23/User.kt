@@ -2,8 +2,7 @@ package getters_setters_23
 
 class User(var firstName: String, lastName: String) {
 
-
-    //    Here we are overriding the get and set implementation of fullName
+//  Here we are overriding the get and set implementation of fullName
     var fullName: String = "$firstName $lastName"
         get() = "Full Name: $field"
         set(value) {
@@ -15,7 +14,7 @@ class User(var firstName: String, lastName: String) {
 
         }
 
-//   field is the backing field for fullName property, field contains the content of
-//   full name property.
+//  field is the backing field for fullName property, field contains the content of
+//  full name property.
 
 }
