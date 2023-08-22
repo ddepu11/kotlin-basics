@@ -7,6 +7,10 @@ package constructor_init_block_21
 // The init block allows you to execute code that should run as part of the instance initialization,
 // similar to how you might use a constructor or initializer block in other programming languages.
 
+// Keep in mind that you can have multiple init blocks in a class,
+// and they will be executed in the order they appear in the code,
+// after the primary constructor parameters are initialized.
+
 class User(var firstName: String = "", var lastName: String = "smith") {
 
 
