@@ -5,10 +5,10 @@ fun main() {
 
 //    val user = User("Mohan")
 
-//    var comp1 = Computer(name = "Some Name","Asus", processor = "intel core i3")
+    var comp1 = Computer(name = "Some Name","Asus", processor = "intel core i3")
 
 
-    var comp2 = Computer("XYZ","Intel i5 4658U")
+//    var comp2 = Computer("XYZ","Intel i5 4658U")
 
 
 }

@@ -1,5 +1,12 @@
 package class_properties_22
 
+
+// In Kotlin, class properties are member variables or fields associated with a class.
+// These properties can hold data and have associated accessors (getters) and mutators (setters) that
+// control how the data is read from and written to these properties.
+// Kotlin provides several ways to define and manage class properties.
+
+
 class User(var firstName: String, var lastName: String) {
 
     var fullName = "$firstName $lastName"
