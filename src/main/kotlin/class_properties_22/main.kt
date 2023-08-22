@@ -23,7 +23,7 @@ fun main() {
 
     val mobile1 = Mobile(name = "Moto G52", price = 16000.00,6)
 
-    println("Configuration: ${mobile1.confuguration}")
+    println("Configuration: ${mobile1.configuration}")
 
 
     mobile1.makeACall("9094859375")

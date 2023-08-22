@@ -3,11 +3,11 @@ package class_properties_22
 class Mobile(var name:String, var price:Double,var ram:Int) {
 
 
-    var confuguration = "Mobile $name, its price is $price INR and has ram of $ram gb of ram."
+    var configuration = "Mobile $name, its price is $price INR and has ram of $ram gb of ram."
 
 
 //  Private value
-    val configurationLength = confuguration.length;
+    val configurationLength = configuration.length;
 
 
     init {
