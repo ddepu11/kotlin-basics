@@ -3,7 +3,7 @@ package funtion_abstract_31
 fun main(){
     println("Main Function")
 
-    var fromAPI = "gOlD"
+    var fromAPI = "PlaTiNuM"
 
     var accountType = AccountType.valueOf(fromAPI.split("").joinToString("") { it.replaceFirstChar(Char::uppercase)  })
 
