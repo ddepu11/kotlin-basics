@@ -36,6 +36,7 @@ enum class AccountType {
      PLATINUM
 }
 
+// Enum Constructor parameters.
 enum class Colors(val hexCode:String,val isDark:Boolean = true) {
     RED("#FF0000",true),
     ORANGE("#FFA500",false),
