@@ -26,6 +26,11 @@ fun main() {
 //  Same order but with different costumer
     val newOrder2 = order.copy(costumer = person1)
     println("New Order 2 $newOrder2")
+
+//  Note: This is not a deep copy, (this is shallow copy)
+//  If we copy list that will not be copied.
+
+
 }
 
 data class Order(val amount:Int,val costumer:Person)
