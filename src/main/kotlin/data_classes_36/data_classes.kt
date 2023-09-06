@@ -26,12 +26,18 @@ fun main(){
     println(p2.fullName())
     println("Full Name Length: ${p1.fullNameLength()}")
 
+
+    val p3 = Person()
+
+    println("Person 3 $p3")
+
 }
 
 
 // When you use data class, kotlin compiler generates,
 // equals / hashcode / toString methods for us
-data class Person(var firstName:String,var lastName:String,var age:Int){
+// To get Parameter less constructor pass default value in constructor
+data class Person(var firstName:String="XYZ", var lastName:String="MNO", var age:Int=0){
     fun fullName() =  "$firstName $lastName"
 
     fun fullNameLength():Int {
