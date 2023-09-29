@@ -1,4 +1,4 @@
-package Extension_Functions_85
+package Extension_Functions_86
 
 fun main(){
     val name:String  = "Mohan Kumar"
@@ -8,7 +8,7 @@ fun main(){
 
     val age:Int = 15
 
-// Is adult is extension function
+//  Is adult is extension function
     println("Is Adult: ${age.isAdult()}")
 
     val person = Person("Mukesh","Khanna",34)
