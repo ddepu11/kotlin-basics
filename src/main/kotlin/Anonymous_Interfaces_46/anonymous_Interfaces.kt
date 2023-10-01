@@ -1,6 +1,6 @@
 package Anonymous_Interfaces_46
 
-fun main(){
+fun main() {
 
     val button = Button()
 
@@ -18,7 +18,7 @@ fun main(){
 
 //    OR
 
-    button.setMyListener(object :OnClickListener{
+    button.setMyListener(object : OnClickListener {
         override fun onClick(viewName: String) {
             println("On Click Clicked. $viewName abc")
         }
@@ -31,7 +31,7 @@ fun main(){
 //    MAP
 
     val map = Map()
-    map.clickListener = object :OnClickListener{
+    map.clickListener = object : OnClickListener {
         override fun onClick(viewName: String) {
             println("$viewName Clicked!!!")
         }
@@ -49,22 +49,23 @@ fun main(){
 //
 //}
 
-interface  OnClickListener{
-    fun onClick(viewName:String)
+interface OnClickListener {
+    fun onClick(viewName: String)
 }
 
-abstract  class View{
+abstract class View {
     lateinit var clickListener: OnClickListener
 
-    fun setMyListener(clickListener: OnClickListener ) {
-            this.clickListener = clickListener
+    fun setMyListener(clickListener: OnClickListener) {
+        this.clickListener = clickListener
     }
-    fun click( viewName:String){
+
+    fun click(viewName: String) {
         clickListener.onClick(viewName)
     }
 }
 
 
-class Button:View()
-class Image:View()
-class Map:View()
+class Button : View()
+class Image : View()
+class Map : View()
